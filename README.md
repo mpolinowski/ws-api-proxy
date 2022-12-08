@@ -41,15 +41,15 @@ docker run --rm --network host -v /path/to/docker_ws_proxy:/etc/nginx --name pro
 As server address I always used `localhost` instead of an IP or domain - you might want to change that:
 
 
-* [Websocket Proxy configuration](/docker_ws_proxy/conf.d/ws-proxy.conf)
-* [Secure Websocket Proxy configuration](/docker_ws_proxy/conf.d/wss-proxy.conf)
-* [Secure Websocket Proxy configuration with Path Re-Writing](/docker_ws_proxy/conf.d/wss-proxy-path-rewriting.conf)
-* [Secure Websocket Proxy configuration with Path Re-Writing and Load-balancing](/docker_ws_proxy/conf.d/wss-proxy-load-balancing.conf)
+* [Websocket Proxy configuration](https://github.com/mpolinowski/ws-api-proxy/blob/master/docker_ws_proxy/conf.d/ws-proxy.conf)
+* [Secure Websocket Proxy configuration](https://github.com/mpolinowski/ws-api-proxy/blob/master/docker_ws_proxy/conf.d/wss-proxy.conf)
+* [Secure Websocket Proxy configuration with Path Re-Writing](https://github.com/mpolinowski/ws-api-proxy/blob/master/docker_ws_proxy/conf.d/wss-proxy-path-rewriting.conf)
+* [Secure Websocket Proxy configuration with Path Re-Writing and Load-balancing](https://github.com/mpolinowski/ws-api-proxy/blob/master/docker_ws_proxy/conf.d/wss-proxy-load-balancing.conf)
 
 
 Which configuration file is used by NGINX can be set in the following place:
 
-* [NGINX Server Config](/docker_ws_proxy/nginx.conf)
+* [NGINX Server Config](https://github.com/mpolinowski/ws-api-proxy/blob/master/docker_ws_proxy/nginx.conf)
 
 
 ```bash
